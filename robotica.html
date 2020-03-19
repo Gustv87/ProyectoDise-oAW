@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/robotica.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+
+</head>
+
+<body>
+    <div id="page" class="container">
+        <div class="titulo">
+            <header>
+                <h1><b>Robotica</b></h1>
+            </header>
+        </div>
+        <div id="menu">
+            <ul>
+                <li class="current_page_item"><a href="./index.html" accesskey="1" title="">Inicio</a></li>
+                <li><a href="./robotica.html" accesskey="3" title="">Robotica</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Ayuda</a>
+                    <div class="dropdown-content">
+                        <a href="./quiensoy.html">Quien Soy</a>
+                        <a href="./contactanos.html">Contactanos</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+        <br>
+        <br>
+
+        <div class="gallery">
+            <a target="_blank" href="./assets/img/Foto-robot.jpeg">
+                <img src="./assets/img/Foto-robot.jpeg" alt="robot" width="600" height="400">
+            </a>
+            <div class="desc"> <b>Definimos qué es un robot como una entidad autómata compuesto por mecánica
+                    artificial y un sistema electromecánico..</b></div>
+
+        </div>
+
+        <div class="main">
+            <div class="video">
+                </p>
+                <iframe id="ocultable" width="560" height="315" src="https://www.youtube.com/embed/qnnNLk9Bwh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+            </div>
+            <br>
+            <div class="cbtn">
+                <button class="btn" id="btnOcultar" onclick="return mostrarOcultar('ocultable'),ocultarMostrar()" type="button">Ocultar</button>
+            </div>
+
+
+
+            <section>
+                <b>1. Introducción</b>
+
+                <p>
+                    No hay solución posible. Cuando se habla de robótica con alguien, casi se puede ver en los ojos del interlocutor la imagen e C3PO hablando sin parar cuatrocientos idiomas a la vez y corriendo de un lado para otro delante o detrás del Jedi de turno. Aunque
+                    las películas y novelas de ciencias ficción han logrado que la robótica comience a interesar a una cantidad cada vez más numerosa de personas, por desgracia la robótica actual dista mucho de haber evolucionado hasta el punto que se
+                    nos mostraba en la trilogía de "La guerra de las galaxias". En este proyecto vamos a intentar dar un repaso a la situación actual de la robótica, así como a analizar los distintos componentes de un robot y los diferentes tipos de robot
+                    que se pueden encontrar en la actualidad.</p>
+
+                <b>2. Concepto de robótica</b>
+
+                <p>La Robótica es una ciencia o rama de la tecnología, que estudia el diseño y construcción de máquinas capaces de desempeñar tareas realizadas por el ser humano o que requieren del uso de inteligencia. Las ciencias y tecnologías de las que
+                    deriva podrían ser: el álgebra, los autómatas programables, las máquinas de estados, la mecánica o la informática. De forma general, la Robótica se define como: El conjunto de conocimientos teóricos y prácticos que permiten concebir,
+                    realizar y automatizar sistemas basados en estructuras mecánicas poli articuladas, dotados de un determinado grado de "inteligencia" y destinados a la producción industrial o al sustitución del hombre en muy diversas tareas. Un sistema
+                    Robótico se puede describirse, como "Aquel que es capaz de recibir información, de comprender su entorno a través del empleo de modelos, de formular y de ejecutar planes, y de controlar o supervisar su operación". La Robótica es esencialmente
+                    pluridisciplinaria y se apoya en gran medida en los progresos de la microelectrónica y de la informática, así como en los de nuevas disciplinas tales como el reconocimiento de patrones y de inteligencia artificial. La historia de la
+                    Robótica ha estado unida a la construcción de "artefactos", muchas veces por obra de genios autodidactas que trataban de materializar el deseo humano de crear seres semejantes a nosotros que nos descargasen del trabajo. El ingeniero
+                    español Leonardo Torres Quevedo (que construyó el primer mando a distancia para su torpedo automóvil mediante telegrafía sin hilodrecista automático, el primer trasbordador aéreo y otros muchos ingenios) acuñó el término "automática"
+                    en relación con la teoría de la automatización de tareas tradicionalmente asociadas a los humanos. Si algún autor ha influido sobre manera en la concepción del universo de los robots de ficción, éste ha sido sin duda alguna Isaac Asimos.
+                    Muchos otros, desde luego, han escrito sobre robots, pero ninguno ha relatado tan minuciosamente las actitudes y posibilidades de estas máquinas como lo ha hecho él. Tanto es así, que el Oxford English Dictionary reconoce a Asimos
+                    como inventor de la palabra "robótica" y, aunque todos conocemos la facilidad de los anglófonos para inventar palabras nuevas, no por ello tiene mucho mérito. Cuando tenía 22 años, Asimos escribió su cuarto relato corto sobre robots.
+                    El círculo vicioso. En boca de unos de sus personajes planteó lo que consideraba axiomas básicos para el funcionamiento de un robot. Los llamó las Tres reglas fundamental de la robótica y dicen así: Ningún robot puede hacer daño a
+                    un ser humano, o permitir que se le haga daño por no actuar. Un robot debe obedecer las órdenes dadas por un ser humano, excepto si éstas órdenes entran en conflicto con la primera ley. Un robot debe proteger su propia existencia en
+                    la medida en que está protección no sea incompatible con las leyes anteriores. En definitiva, las famosas leyes de Asimos son aplicables a un universo donde los robots son seres inteligentes, pero quedan relegadas a una cartilla de
+                    parvulario al enfrentarse con la dura realidad. Pero esto son sólo anécdotas.
+                </p>
+
+                <script src="./robotica.js"></script>
+            </section>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2020 After Hours Programming. / Creado : Gustavo Martinez / Clase: Diseño de Aplicaciones Web</p>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/contactanos.css">
+</head>
+
+<body>
+    <div id="page" class="container">
+        <div align="center">
+            <header>
+                <h1><b>Contactanos</b></h1>
+            </header>
+        </div>
+        <div id="menu">
+            <ul>
+                <li class="current_page_item"><a href="./index.html" accesskey="1" title="">Inicio</a></li>
+                <li><a href="./robotica.html" accesskey="3" title="">Robotica</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Ayuda</a>
+                    <div class="dropdown-content">
+                        <a href="./quiensoy.html">Quien Soy</a>
+                        <a href="./contactanos.html">Contactanos</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="form">
+        <form method="POST">
+
+
+            <label for="nombre">Nombre</label>
+            <input name="nombre" type="text">
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido">
+            <br>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad">
+            <br>
+            <label for="correo">Correo</label>
+            <input type="email" name="correo">
+            <br>
+            <label for="temasInteres">Temas de Interes:</label>
+            <select id="Temas">
+                <option value="internetCosas">Internet de las Cosas</option>
+                <option value="robotica">Robotica</option>
+            </select>
+            <br>
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha">
+            <br>
+            <label for="hora">Hora</label>
+            <input type="time" name="hora">
+            <br>
+            <form class="subir" enctype="multipart/form-data" action="uploader.php" method="POST">
+                <input  name="subirArchivo" type="file" />
+                <input type="submit" value="Subir archivo" />
+            </form>
+            <br>
+            <h3>¿Que tema le gustaria que incluyamos en nuestro proximo escrito?</h3>
+            
+            <input type="checkbox" value="electronica" name="electronica" >
+            <label for="electronica">Electronica</label>
+            <br>
+            <input type="checkbox" value="arduino" name="arduino">
+            <label for="arduino">Arduino</label>
+            <br>
+            <input type="checkbox" value="domotica" name="domotica">
+            <label for="domotica">Domotica</label>
+            <br>
+           <input class="button" type="button" value="Agregar">
+        </form>
+    </div>
+    <div class="footer">
+        <p>© 2020 After Hours Programming. / Creado : Gustavo Martinez / Clase: Diseño de Aplicaciones Web</p>
+
+    </div>
+</body>
+
+</html>

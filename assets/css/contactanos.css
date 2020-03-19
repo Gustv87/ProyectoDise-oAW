@@ -1,0 +1,92 @@
+.form {
+	padding-top: 50px;
+	padding-right: 80px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+  }
+
+select {
+	width: 100%;
+	padding: 16px 20px;
+	border: none;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+  }
+
+  input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+  }
+
+  input[type=email] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+  }
+
+  input[type=number] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+  }
+
+  input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+  }
+
+  input[type=date] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+  }
+  input[type=time] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+  }
+  textarea {
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	width: 100%;
+  }
+
+  label {
+	  padding: 8px;
+  }
+
+  .subir{
+		
+	border-bottom-style: dotted;
+	
+  }
+
+  .button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	Border-radius: 12px;
+  }
+  .button:hover {background-color: #3e8e41}
+
+  
+  
+  
+  
+ 
